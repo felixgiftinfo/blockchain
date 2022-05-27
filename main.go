@@ -3,11 +3,11 @@ package main
 import (
 	"fmt"
 
-	"github.com/felixgiftinfo/fg-blockchain/blockchain1"
+	blockchain "github.com/felixgiftinfo/fg-blockchain/blockchain2"
 )
 
 func main() {
 	fmt.Println("Hello Felix Gift")
 
-	blockchain1.Run()
+	blockchain.Run()
 }
